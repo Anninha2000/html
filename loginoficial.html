@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Cine Verse</title>
+    <link rel="stylesheet" href="login1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+
+        <form>
+            <div class="input">
+                <div class="input-com-icon">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email"  placeholder="Email" >
+                </div>
+                <div class="input-com-icon">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha" >
+                </div>
+            </div>
+            
+            <div class="checkbox">
+                <input type="checkbox" id="lembrar" name="lembrar">
+                <label for="lembrar">Lembrar minha senha</label>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+
+            <button class="botao" type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+
+            <div class="registrar">
+                <p>Ainda não tem uma conta? <a href="#">Criar conta</a></p>
+            </div>
+
+            <div class="redes-login">
+                <div class="linha">
+                    <p>Ou entre com</p>
+                </div>
+                <div class="redes-sociais">
+                    <button type="button" class="google"><i class="fab fa-google"></i></button>
+                    <button type="button" class="facebook"><i class="fab fa-facebook-f"></i></button>
+                    <button type="button" class="x"><i class="fab fa-x-twitter"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
